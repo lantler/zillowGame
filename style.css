@@ -77,12 +77,14 @@ background-size: contain;
 
 @media screen and (max-width: 500px)  {
   .logo {
-    width: 200px;
+    width: 150px;
   }
   .title {
     font-size: 2rem;
+    margin: 1rem;
   }
   .subtitle {
     font-size: 1rem;
+    margin: 1rem;
   }
 }
