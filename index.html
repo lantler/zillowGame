@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:wght@400;700&family=Open+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+     <section class="container">
+         <img src="zillow.png" alt="">
+        <h1 class="title">The Zillow Game</h1>
+        <h3 class="subtitle">
+            Let's find your dream home!
+        </h3>
+
+        <!-- hide on press -->
+        
+        <button id="generate-btn" type="button" onclick="hideShow()">Randomize</button>
+
+        <!-- show on press -->
+    
+        <div id="result">
+            <div class="city">
+                <h1>City</h1>
+            </div>
+            <div class="budget">
+                <h1>Budget</h1>
+            </div>
+
+            <button id="generate-btn" onClick="window.location.reload();">Play again</button>
+
+       </div>
+    </section>
+
+        <footer>
+            <p class="footer">Copyright 2022. All rights reserved.</p>
+        </footer>
+
+        
+        <script src="index.js" async defer></script>
+
+    </body>
+</html> 
+

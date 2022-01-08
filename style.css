@@ -1,0 +1,76 @@
+html {
+height: 100%;
+
+/* background-image: url("houses.png");
+background-position: bottom;
+background-repeat: no-repeat;
+background-size: contain; */
+}
+
+.container {
+    margin: 10% 0 20% 0;
+    padding: 1.5rem;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+}
+
+.title {
+    margin: 1.5rem;
+    color: #006AFF;
+    font-size: 3rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+.subtitle {
+    margin: 3rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+}
+
+
+#generate-btn {
+    margin: 1rem;
+    border-radius: 15%;
+    border-style: none;
+    padding: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    transition-duration: .5s;
+}
+
+#generate-btn:hover {
+    background-color: #006AFF;
+    color: white;
+}
+
+#generate-btn:hover {
+
+}
+
+#result {
+    display: none;
+    justify-content: center;
+}
+
+.inner-text {
+    justify-content: center;
+}
+
+.city, .budget {
+    margin: 1.5rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    height: 1.5rem;
+    margin: 1rem;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    color: #fff;
+}
