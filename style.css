@@ -1,10 +1,10 @@
 html {
 height: 100%;
 
-/* background-image: url("houses.png");
+background-image: url("houses.png");
 background-position: bottom;
 background-repeat: no-repeat;
-background-size: contain; */
+background-size: contain;
 }
 
 .container {
