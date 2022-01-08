@@ -74,3 +74,15 @@ background-size: contain;
     font-weight: lighter;
     color: #fff;
 }
+
+@media screen and (max-width: 500px)  {
+  .logo {
+    width: 200px;
+  }
+  .title {
+    font-size: 2rem;
+  }
+  .subtitle {
+    font-size: 1rem;
+  }
+}
