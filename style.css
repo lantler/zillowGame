@@ -83,7 +83,7 @@ background-size: contain;
     font-size: 2rem;
     margin: 1rem;
   }
-  .subtitle {
+  .subtitle, .city, .budget {
     font-size: 1rem;
     margin: 1rem;
   }
