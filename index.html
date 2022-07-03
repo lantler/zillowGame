@@ -17,7 +17,9 @@
          <img class="logo" src="zillow.png" alt="">
         <h1 class="title">The Zillow Game</h1>
         <h3 class="subtitle">
-            Let's find your dream home!
+            <p>
+            Use the button below to generate<br> a random U.S. city with a random budget. 
+            </p>
         </h3>
 
         <!-- hide on press -->
@@ -27,11 +29,13 @@
         <!-- show on press -->
 
         <div id="result">
-            <div class="city">
-                <h1>City</h1>
-            </div>
-            <div class="budget">
-                <h1>Budget</h1>
+            <div id="city-result">
+                <div class="city">
+                    <h1>City</h1>
+                </div>
+                <div class="budget">
+                    <h1>Budget</h1>
+                </div>
             </div>
 
             <button id="generate-btn" onClick="window.location.reload();">Play again</button>

@@ -19,25 +19,29 @@ background-size: contain;
     margin: 1.5rem;
     color: #006AFF;
     font-size: 3rem;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
 }
 
 .subtitle {
-    margin: 3rem;
-    font-family: 'Open Sans', sans-serif;
+    margin: 2rem;
+    line-break: strict;
+    line-height: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: normal;
 }
 
 
 #generate-btn {
-    margin: 1rem;
-    border-radius: 15%;
+    height:75px;
+    width:200px;
+    border-radius: 360px;
     border-style: none;
-    padding: 20px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: normal;
+    font-size: 1.2rem;
     transition-duration: .5s;
+    cursor: pointer;
 }
 
 #generate-btn:hover {
@@ -45,8 +49,8 @@ background-size: contain;
     color: white;
 }
 
-#generate-btn:hover {
-
+#generate-btn:clicked {
+    
 }
 
 #result {
@@ -59,9 +63,14 @@ background-size: contain;
 }
 
 .city, .budget {
-    margin: 1.5rem;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: normal;
+    margin: .8rem;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#city-result {
+    margin: 3rem;
 }
 
 .footer {
@@ -77,14 +86,16 @@ background-size: contain;
 
 @media screen and (max-width: 500px)  {
   .logo {
-    width: 150px;
+    width: 200px;
   }
   .title {
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin: 1rem;
   }
-  .subtitle, .city, .budget {
+  .subtitle {
     font-size: 1rem;
-    margin: 1rem;
+  }
+  .city, .budget {
+    font-size: 1.5rem;
   }
 }
